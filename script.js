@@ -36,9 +36,37 @@ if(Bike=Key){
     console.log("Bike is in stop position");
 }
 // example6
-let num=10;
+let num=10
 if(num%2===0){
     console.log("10 is even number");
 } else{
     console.log("10 is odd number");
+}
+
+// else if Statement
+// example1
+let Mode="dark";
+let color;
+if (mode===dark){
+    color="black";
+} else if(mode==="blue"){
+    color="blue";
+}else if(mode==="coffee"){
+    color="coffee";
+}else {
+    color="white";
+}
+console.log(color);
+
+// example2
+let Num=80;
+let age1;
+if(Num===80){
+    age1="very oldest people"
+} else if(Num<=80){
+age1="Middle age people";
+} else if(Num===20){
+    age1="A young Man";
+}else{
+    age1="A Human Beings";
 }
