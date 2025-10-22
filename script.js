@@ -35,3 +35,10 @@ if(Bike=Key){
 }else{
     console.log("Bike is in stop position");
 }
+// example6
+let num=10;
+if(num%2===0){
+    console.log("10 is even number");
+} else{
+    console.log("10 is odd number");
+}
